@@ -1,7 +1,7 @@
 import axios from 'axios';
 const sourceDomain = window.location.protocol + "//" + window.location.hostname;
 const my_api = axios.create({
-    baseURL: `${sourceDomain}/api`, //import.meta.env.VITE_LOGIN_API,
+    baseURL: 'https://representations-calendars-poor-strain.trycloudflare.com/api', //`${sourceDomain}/api`, //import.meta.env.VITE_LOGIN_API,
     timeout: 50000,
     headers: {
         'Authorization': `Bearer ${localStorage.getItem('token')}`

@@ -1,0 +1,15 @@
+:root{
+    --bg-color: #2d302d;
+    --clr: #c6c1c1;
+    --body-pd: 0;
+    --body-mgn: 0;
+    --box-size: border-box;
+}
+body{
+    padding: var(--body-pd);
+    margin: var(--body-mgn);
+    box-sizing: var(--box-size);
+    background-color: var(--bg-color);
+    color: var(--clr);
+
+}

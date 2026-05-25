@@ -107,7 +107,7 @@ const routers = [
 ]
 
 const route = createRouter({
-    history: createWebHistory('/file/'),
+    history: createWebHistory('/'),
     routes: routers
 })
 console.log(route)
